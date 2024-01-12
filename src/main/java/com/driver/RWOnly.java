@@ -3,10 +3,10 @@ package com.driver;
 public class RWOnly {
     private String name;
 
-    String getName(){
+    public String getName(){
         return name;
     }
-    void setName(String _name){
+    public void setName(String _name){
         name = _name;
     }
 }
